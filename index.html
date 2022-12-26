@@ -38,13 +38,12 @@
       }
 
       .qrImg {
-        width: 288px;
-        height: 288px;
+        max-width: 288px;
         border-radius: 8px;
       }
 
       .content {
-        width: 288px;
+        max-width: 288px;
         margin-top: 20px;
         display: flex;
         flex-direction: column;
@@ -55,15 +54,15 @@
       .title {
         font-family: 'Outfit';
         font-weight: 700;
-        font-size: 22px;
+        font-size: 1.375rem;
         color: hsl(218, 44%, 22%);
       }
 
       .paragraf {
         font-family: 'Outfit';
         font-weight: 400;
-        font-size: 16px;
-        width: 260px;
+        font-size: 1rem;
+        max-width: 260px;
         color: hsl(220, 15%, 55%);
         padding: 20px 0;
 
@@ -72,12 +71,12 @@
     </style>
   </head>
   <body>
-    <div class="card">
-      <img src="images/image-qr-code.png" alt="" class="qrImg" />
+    <main class="card">
+      <img src="images/image-qr-code.png" alt="QRCode" class="qrImg" />
       <div class="content">
-        <h3 class="title">Improve your front-end skills by building projects</h3>
+        <h1 class="title">Improve your front-end skills by building projects</h1>
         <p class="paragraf">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
       </div>
-    </div>
+    </main>
   </body>
 </html>
